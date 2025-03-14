@@ -2,6 +2,7 @@
 - Various functions and tools for the Open-WebUI project 
 - Code by me with help from various LLMs
 - Official Open-WebUI links below
+- Various Open-WebUI tips and stuff
 
 | SITE | ADDRESS |
 | ------------- | ------------- |
