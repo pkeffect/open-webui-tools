@@ -1,2 +1,2 @@
-# open-webui-tools
-Various functions and tools for the OpenWebUI project.
+# Ollama Unload Model
+This tool adds a button under the LLMs response that will instantly unload any running Ollama model(s).
