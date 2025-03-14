@@ -1,4 +1,4 @@
-# open-webui-tools
+# Open WebUI Tools
 Various functions and tools for the OpenWebUI project. Related links below.
 
 | SITE | ADDRESS |
