@@ -1,5 +1,7 @@
 # Open WebUI Tools
-Various functions and tools for the OpenWebUI project. Related links below.
+- Various functions and tools for the Open-WebUI project 
+- Code by me with help from various LLMs
+- Official Open-WebUI links below
 
 | SITE | ADDRESS |
 | ------------- | ------------- |
