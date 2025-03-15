@@ -1,2 +1,7 @@
 # Ollama Unload Model
-This tool adds a button under the LLMs response that will instantly unload any running Ollama model(s).
+features:
+  - Custom button under LLM response
+  - Works under any environment/deployments
+  - Searches multiple locations for Ollama server
+  - Will (for now) unload all models running instantly
+  - Displays progress and result
