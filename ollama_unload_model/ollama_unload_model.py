@@ -4,8 +4,8 @@ author: pkeffect
 author_url: https://github.com/pkeffect
 funding_url: https://github.com/open-webui
 required_open_webui_version: 0.5.20
-version: 0.0.4
-date: 2025-03-13
+version: 0.0.5
+date: 2025-03-14
 license: MIT
 description: Adds Ollama Model Unloader to UI Extras with API-based model management
 requirements:
