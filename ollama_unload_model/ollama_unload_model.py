@@ -101,10 +101,6 @@ class OllamaUnloader:
 
 class Action:
     class Valves(BaseModel):
-        HOVER_DESCRIPTION: str = Field(
-            default="Unload Ollama Models",
-            description="Unloads all running Ollama models to free memory.",
-        )
         OLLAMA_HOSTS: List[str] = Field(
             default=DEFAULT_OLLAMA_HOSTS,
             description="List of Ollama host IPs to connect to",
