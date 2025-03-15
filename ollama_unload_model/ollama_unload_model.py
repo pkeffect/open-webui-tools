@@ -4,18 +4,19 @@ author: pkeffect
 author_url: https://github.com/pkeffect/open-webui-tools
 funding_url: https://github.com/open-webui
 required_open_webui_version: 0.5.20
-version: 0.0.8
-date: 2025-03-14
+version: 0.0.9
+date: 2025-03-15
 license: MIT
 description: Ollama Model Unloader Button
 features:
   - Custom button under LLM response
-  - Works under any environment/deployments
+  - For local ollama hosts only (for now)
   - Searches multiple locations for Ollama server
   - Will (for now) unload all models running instantly
   - Displays progress and result
-requirements:
+  - Supports custom port configuration
 icon_url: data:image/svg+xml;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAs/AAALPwFJxTL7AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAL5JREFUOI21kS0KQkEUhb8n+rpZxCQIWsVgdR8m3yIEV2CyG92BQQwGm8FmNrgBQZOicCxXkGGezjzwwmVgOH8zB/4xgobgLrgIzoKT4CiYuthyjkYfSG0BqnauQhPMBHJ2GfOEnUN+Cjqh5FRwcwTmMe5dj3stD1/y3PU8mLW1MAlJsPB8oKzSeojAQJDZ7j8Esp9kj9jWyBtBEksuCa7WSKuIe9vcx9FkExgKDoLKN5yvxvc0gVECj0IJQucFVwxtUwOOoygAAAAASUVORK5CYII=
+requirements:
 """
 
 import requests
@@ -28,6 +29,7 @@ from typing import Callable, Any, Dict, List
 # Constants
 TIMEOUT = 15
 DEFAULT_OLLAMA_HOSTS = ["localhost", "127.0.0.1", "ollama", "host.docker.internal"]
+DEFAULT_OLLAMA_PORT = 11434
 requests.adapters.DEFAULT_TIMEOUT = TIMEOUT
 
 
@@ -68,16 +70,16 @@ class OllamaAPIClient:
 
 class OllamaUnloader:
     @staticmethod
-    def run_stop_command(status_callback=None, ollama_hosts=None) -> str:
+    def run_stop_command(status_callback=None, ollama_hosts=None, ollama_port=DEFAULT_OLLAMA_PORT) -> str:
         ollama_hosts = ollama_hosts or DEFAULT_OLLAMA_HOSTS
         total_unloaded = total_failed = 0
 
         for host in ollama_hosts:
             if status_callback:
-                status_callback(f"Connecting to Ollama at {host}...")
+                status_callback(f"Connecting to Ollama at {host}:{ollama_port}...")
 
             try:
-                api_client = OllamaAPIClient(f"http://{host}:11434")
+                api_client = OllamaAPIClient(f"http://{host}:{ollama_port}")
                 running_models = api_client.get_running_models()
 
                 if not running_models:
@@ -111,6 +113,10 @@ class Action:
         OLLAMA_HOSTS: List[str] = Field(
             default=DEFAULT_OLLAMA_HOSTS,
             description="List of Ollama host IPs to connect to",
+        )
+        OLLAMA_PORT: int = Field(
+            default=DEFAULT_OLLAMA_PORT,
+            description="Port number for Ollama API (default: 11434)",
         )
         WAIT_BETWEEN_UNLOADS: int = Field(
             default=0, description="Seconds to wait between model unloads (default: 0)"
@@ -150,6 +156,7 @@ class Action:
                     result = OllamaUnloader.run_stop_command(
                         status_callback=status_callback,
                         ollama_hosts=self.valves.OLLAMA_HOSTS,
+                        ollama_port=self.valves.OLLAMA_PORT,
                     )
                     status_updates["final_result"] = result
                     return result
