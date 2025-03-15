@@ -15,6 +15,7 @@ features:
   - Will (for now) unload all models running instantly
   - Displays progress and result
 requirements:
+icon_url: https://github.com/pkeffect/open-webui-tools/blob/main/ollama_unload_model/images/flash.png?raw=true
 """
 
 import requests
