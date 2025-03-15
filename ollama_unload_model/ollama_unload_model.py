@@ -7,7 +7,7 @@ required_open_webui_version: 0.5.20
 version: 0.0.5
 date: 2025-03-14
 license: MIT
-description: Adds Ollama Model Unloader to UI Extras with API-based model management
+description: Adds Ollama Model Unloader button under the LLM response.
 requirements:
 """
 
