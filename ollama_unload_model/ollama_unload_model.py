@@ -1,13 +1,19 @@
 """
 title: Ollama Model Unloader
 author: pkeffect
-author_url: https://github.com/pkeffect
+author_url: https://github.com/pkeffect/open-webui-tools
 funding_url: https://github.com/open-webui
 required_open_webui_version: 0.5.20
-version: 0.0.5
+version: 0.0.6
 date: 2025-03-14
 license: MIT
-description: Adds Ollama Model Unloader button under the LLM response.
+description: Ollama Model Unloader Button
+features:
+  - Custom button under LLM response
+  - Works under any environment/deployments
+  - Searches multiple locations for Ollama server
+  - Will (for now) unload all models running instantly
+  - Displays progress and result
 requirements:
 """
 
