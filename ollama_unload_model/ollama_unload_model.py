@@ -4,7 +4,7 @@ author: pkeffect
 author_url: https://github.com/pkeffect/open-webui-tools
 funding_url: https://github.com/open-webui
 required_open_webui_version: 0.5.20
-version: 0.0.6
+version: 0.0.7
 date: 2025-03-14
 license: MIT
 description: Ollama Model Unloader Button
