@@ -4,7 +4,7 @@ author: pkeffect
 author_url: https://github.com/pkeffect/open-webui-tools
 funding_url: https://github.com/open-webui
 required_open_webui_version: 0.5.20
-version: 0.0.7
+version: 0.0.8
 date: 2025-03-14
 license: MIT
 description: Ollama Model Unloader Button
@@ -15,7 +15,7 @@ features:
   - Will (for now) unload all models running instantly
   - Displays progress and result
 requirements:
-icon_url: https://github.com/pkeffect/open-webui-tools/blob/main/ollama_unload_model/images/flash.png?raw=true
+icon_url: data:image/svg+xml;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAs/AAALPwFJxTL7AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAL5JREFUOI21kS0KQkEUhb8n+rpZxCQIWsVgdR8m3yIEV2CyG92BQQwGm8FmNrgBQZOicCxXkGGezjzwwmVgOH8zB/4xgobgLrgIzoKT4CiYuthyjkYfSG0BqnauQhPMBHJ2GfOEnUN+Cjqh5FRwcwTmMe5dj3stD1/y3PU8mLW1MAlJsPB8oKzSeojAQJDZ7j8Esp9kj9jWyBtBEksuCa7WSKuIe9vcx9FkExgKDoLKN5yvxvc0gVECj0IJQucFVwxtUwOOoygAAAAASUVORK5CYII=
 """
 
 import requests
