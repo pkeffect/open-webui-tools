@@ -2,7 +2,8 @@
 title: Ollama Model Unloader
 description: Ollama Model Unloader Button
 author: pkeffect
-author_url: https://github.com/pkeffect/open-webui-tools
+author_url: https://github.com/pkeffect/
+project_url: https://github.com/pkeffect/open-webui-tools/tree/main/ollama_unload_model
 funding_url: https://github.com/open-webui
 required_open_webui_version: 0.6.0
 version: 0.0.5
