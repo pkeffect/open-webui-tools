@@ -2,6 +2,7 @@
 title: Notification Example Test
 author: pkeffect
 author_url: https://github.com/pkeffect
+project_url: https://github.com/pkeffect/open-webui-tools/tree/main/notifications_example_test
 funding_url: https://github.com/open-webui
 required_open_webui_version: 0.6.0
 version: 0.0.2
