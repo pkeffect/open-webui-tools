@@ -3,7 +3,7 @@ title: Age Timer with Space Travel
 description: How long you been alive and how far you have traveled
 author: pkeffect
 author_url: https://github.com/pkeffect/
-project_url: https://github.com/pkeffect/open-webui-tools/tree/main/age_distance
+project_url: https://github.com/pkeffect/open-webui-tools/tree/main/age_travel
 funding_url: https://github.com/open-webui
 required_open_webui_version: 0.6.0
 version: 0.0.5
