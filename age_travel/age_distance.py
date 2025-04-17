@@ -10,11 +10,11 @@ version: 0.0.5
 date: 2025-04-17
 license: MIT
 changelog:
-  - 0.2.0 - Added space travel calculations showing distance traveled through the cosmos
-  - 0.1.5 - Improved leap year handling and timezone detection
-  - 0.1.3 - Added automatic current time detection
-  - 0.1.2 - Enhanced status reporting and user interface
-  - 0.1.0 - Initial release with basic age calculation
+  - 0.0.5 - Added space travel calculations showing distance traveled through the cosmos
+  - 0.0.4 - Improved leap year handling and timezone detection
+  - 0.0.3 - Added automatic current time detection
+  - 0.0.2 - Enhanced status reporting and user interface
+  - 0.0.1 - Initial release with basic age calculation
 features:
   - Calculates years, months, days, hours, and minutes since birth with precise leap year handling
   - Automatically detects current time with timezone support
