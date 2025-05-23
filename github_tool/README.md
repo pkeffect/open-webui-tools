@@ -351,15 +351,6 @@ DEBUG: Repository cache keys: ['src/main.js', 'README.md', ...]
 - **💾 Memory efficient** - Files stored in compressed format
 - **⏱️ Async operations** - Non-blocking repository loading
 
-### 🔍 **API Usage**
-
-The filter uses these GitHub API endpoints:
-
-- **Tree API** - `GET /repos/{owner}/{repo}/git/trees/{branch}?recursive=1`
-- **Contents API** - `GET /repos/{owner}/{repo}/contents/{path}?ref={branch}`
-
-Rate limits apply based on your GitHub token type.
-
 ---
 
 ## 🤝 Contributing
