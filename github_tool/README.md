@@ -427,10 +427,10 @@ copies or substantial portions of the Software.
 
 ## 📞 Support
 
-- 📚 **Documentation** - Check this README first
-- 🐛 **Issues** - Report bugs via GitHub Issues
-- 💬 **Discussions** - Join community discussions
-- 📧 **Direct Support** - For urgent issues
+- 📧 **Email**: pkeffect [at] gmail.com
+- 🐛 **Issues**: [GitHub Issues](https://github.com/pkeffect/open-webui-tools/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/pkeffect/open-webui-tools/discussions)
+- 📖 **Documentation**: [Wiki](https://github.com/pkeffect/open-webui-tools/wiki)
 
 ---
 
