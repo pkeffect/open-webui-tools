@@ -36,12 +36,13 @@ The calculations consider Earth's orbit around the Sun (107,226 km/h) and our so
 | `AUTO_CLOSE_OUTPUT` | Automatically close/collapse output when finished | `True` |
 | `AUTO_CLOSE_DELAY` | Seconds to wait before auto-closing output | `60` |
 
-## 📦 Installation
+## 🚀 Quick Start
 
-1. In Open WebUI, navigate to the Extensions panel
-2. Find "Age Timer with Space Travel" in the community extensions
-3. Click "Install"
-4. The tool will now appear in your toolbar for easy access
+### 1. 📥 Installation
+
+1. **Download the filter** - Copy the complete Python code
+2. **Save as `.py` file** in your Open WebUI functions directory
+3. **Enable in Open WebUI** - Go to Functions menu and enable the filter
 
 ## 🚀 Usage
 
