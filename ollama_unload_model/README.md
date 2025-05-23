@@ -74,6 +74,13 @@ The unloader works by making HTTP requests to the Ollama API. Specifically, it:
 - Uses `POST /api/generate` with `keep_alive: 0` to unload models
 - Includes comprehensive error handling for network issues, API errors, and unexpected scenarios
 
+## 📞 Support
+
+- 📧 **Email**: pkeffect [at] gmail.com
+- 🐛 **Issues**: [GitHub Issues](https://github.com/pkeffect/open-webui-tools/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/pkeffect/open-webui-tools/discussions)
+- 📖 **Documentation**: [Wiki](https://github.com/pkeffect/open-webui-tools/wiki)
+
 ## 👨‍💻 Author
 
 Developed by [pkeffect](https://github.com/pkeffect/)
