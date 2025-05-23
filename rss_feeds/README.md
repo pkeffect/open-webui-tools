@@ -26,51 +26,12 @@
 - **🎯 Event Emission** - Real-time status updates during processing
 - **📱 Multiple Content Formats** - Support for various RSS/Atom feed structures
 
-## 📋 Requirements
+## 📦 Installation
 
-### Required Dependencies
-```bash
-pip install requests lxml pydantic
-```
-
-### Optional Dependencies (Recommended)
-```bash
-# For async support (highly recommended)
-pip install aiohttp asyncio
-
-# For robust date parsing
-pip install python-dateutil
-
-# For HTML parsing and date scraping
-pip install beautifulsoup4 lxml
-```
-
-### Python Version
-- **Minimum**: Python 3.7+
-- **Recommended**: Python 3.9+
-
-## 🚀 Quick Start
-
-### Basic Usage
-
-```python
-from rss_filter import Filter
-
-# Initialize the filter
-filter_instance = Filter()
-
-# Configure RSS feeds
-filter_instance.valves.rss_url = "https://feeds.bbci.co.uk/news/world/rss.xml,http://rss.cnn.com/rss/cnn_topstories.rss"
-
-# Enable key features
-filter_instance.valves.enable_date_scraping = True
-filter_instance.valves.enable_concurrent = True
-filter_instance.valves.max_articles_per_feed = 10
-
-# Process news request
-body = {"messages": [{"content": "What's the latest news?"}]}
-result = await filter_instance.inlet(body)
-```
+1. In Open WebUI, navigate to the Extensions panel
+2. Find "RSS Feeds" in the community extensions
+3. Click "Install"
+4. The tool will now appear in your toolbar for easy access
 
 ## ⚙️ Configuration
 
