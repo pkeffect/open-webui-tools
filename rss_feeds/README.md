@@ -1,6 +1,6 @@
 # 📰 Enhanced RSS News Filter with Web Scraped Dates
 
-[![Version](https://img.shields.io/badge/version-1.5.5-blue.svg)](https://github.com/your-repo)
+[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/your-repo)
 [![Python](https://img.shields.io/badge/python-3.7+-green.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
