@@ -78,6 +78,13 @@ Here's a summary of the notification types demonstrated:
 - **0.0.2** - Added customizable messages via Valves
 - **0.0.1** - Initial version
 
+## 📞 Support
+
+- 📧 **Email**: pkeffect [at] gmail.com
+- 🐛 **Issues**: [GitHub Issues](https://github.com/pkeffect/open-webui-tools/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/pkeffect/open-webui-tools/discussions)
+- 📖 **Documentation**: [Wiki](https://github.com/pkeffect/open-webui-tools/wiki)
+
 ## 👨‍💻 Author
 
 Developed by [pkeffect](https://github.com/pkeffect/)
