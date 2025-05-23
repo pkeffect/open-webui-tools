@@ -35,12 +35,13 @@ You can customize the behavior of the Notification Example Test through the foll
 | `auto_close_delay` | Seconds to wait before automatically closing the notification output (set to 0 to disable auto-close) | `3` |
 | `AUTO_CLOSE_OUTPUT` | Whether to automatically close/collapse output when finished | `True` |
 
-## 📦 Installation
+## 🚀 Quick Start
 
-1. In Open WebUI, navigate to the Extensions panel
-2. Find "Notification Example Test" in the community extensions
-3. Click "Install"
-4. The tool will now appear in your toolbar for easy access
+### 1. 📥 Installation
+
+1. **Download the filter** - Copy the complete Python code
+2. **Save as `.py` file** in your Open WebUI functions directory
+3. **Enable in Open WebUI** - Go to Functions menu and enable the filter
 
 ## 🚀 Usage
 
