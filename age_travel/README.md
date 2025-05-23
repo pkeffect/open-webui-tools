@@ -95,6 +95,13 @@ Your cosmic travel distance is calculated based on:
 - **0.0.2** - Enhanced status reporting and user interface
 - **0.0.1** - Initial release with basic age calculation
 
+## 📞 Support
+
+- 📧 **Email**: pkeffect [at] gmail.com
+- 🐛 **Issues**: [GitHub Issues](https://github.com/pkeffect/open-webui-tools/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/pkeffect/open-webui-tools/discussions)
+- 📖 **Documentation**: [Wiki](https://github.com/pkeffect/open-webui-tools/wiki)
+
 ## 👨‍💻 Author
 
 Developed by [pkeffect](https://github.com/pkeffect/)
