@@ -425,27 +425,6 @@ Configuration class containing all filter settings.
 - `_get_cached_rss_content(url)`: Retrieve cached content
 - `_set_cached_rss_content(url, content)`: Store cached content
 
-## 🤝 Contributing
-
-### 🔧 Development Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-repo/rss-news-filter.git
-   cd rss-news-filter
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   pip install -r requirements-dev.txt  # Development dependencies
-   ```
-
-3. **Run tests**
-   ```bash
-   python -m pytest tests/
-   ```
-
 ### 📝 Code Style
 
 - Follow PEP 8 style guidelines
